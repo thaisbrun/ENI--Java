@@ -26,9 +26,10 @@ public static void ajoutForce(Course course) {
 		course.lesNageurs.forEach(nageur -> {	
 			for(int i = 0 ; i < course.getTailleCourse() ; i++) {
 			Random random = new Random();
-			nageur.setForce(nageur.getForce() + random.nextInt(2));
-			
+			i = nageur.setForce(nageur.getForce() + random.nextInt(4));
+			break;
 			}
+
 		});
 	}
 }

@@ -21,8 +21,8 @@ public class Nageur extends Personne {
 		return force;
 	}
 
-	public void setForce(int force) {
-		this.force = force;
+	public int setForce(int force) {
+		return this.force = force;
 	}
 
 	
